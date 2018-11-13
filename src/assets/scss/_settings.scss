@@ -1,0 +1,37 @@
+$foundation-palette: (
+  primary: #86cfe0,
+  secondary: #5c8d94,
+  success: #5db97b,
+  warning: #dba943,
+  alert: #f44336,
+);
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+$black: #0a0a0a;
+$white: #EEF5F3;
+$orange: #F48E81;
+$purple: #BA7EA3;
+
+$body-background:$white;
+$body-font-color: #5c8d94;
+
+$global-width: rem-calc(1200);
+
+
+$body-font-family:'K2D',"Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+
+
+
+$xy-grid: true;
+$grid-container: $global-width;
+$grid-columns: 12;
+$grid-margin-gutters: (
+  small: 20px,
+  medium: 150px,
+  large: 600px
+);
+$grid-padding-gutters: $grid-margin-gutters;
+$grid-container-padding: $grid-padding-gutters;
+$grid-container-max: $global-width;
+$xy-block-grid-max: 8;

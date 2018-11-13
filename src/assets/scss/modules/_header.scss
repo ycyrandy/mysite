@@ -1,0 +1,114 @@
+$sticky-menu-height: rem-calc(60);
+
+
+body {
+  padding-top: 20.625rem;
+}
+
+.sticky-menu {
+  @include horizontal-center;
+  bottom: 0;
+  // height: $sticky-shrinknav-menu-height;
+  line-height: 3.75rem;
+  width: 100%;
+  background-color: rgba($primary-color, 0.1);
+  transition: all 0.5s ease;
+  color: $white;
+  li {
+    border-radius: 2px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 0 0 1px $white;
+    }
+  }
+
+  a {
+    color: $white;
+    margin: auto;
+  }
+}
+
+.bouncing-arrow {
+  position: absolute;
+  bottom: 6.25rem;
+  width: 3rem !important;
+  height: 3rem !important;
+  animation: bounce 1s infinite;
+  color: $secondary-color;
+}
+
+.sticky-header-title {
+  transition: all 0.3s ease;
+  position: relative;
+  transform: translateY(-$sticky-menu-height/2);
+  margin-bottom: 0;
+  color: $white;
+  &::before{
+    content: " ";
+    display: inline-block;
+    height: 2px;
+    margin: 0 10px;
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    zoom: 1;
+    background: $white;
+    right: 100%;
+  }
+  &::after{
+    content: " ";
+    display: inline-block;
+    height: 2px;
+    margin: 0 10px;
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    zoom: 1;
+    background: $white;
+    left: 100%;
+  }
+}
+
+.sticky-header {
+  width: 100%;
+  height: 110%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lighten($primary-color, 10%);
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  // overflow: hidden;
+  transition: all 0.5s ease;
+  z-index: 99;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 800px solid transparent;
+    border-right: 800px solid transparent;
+    bottom: -50px;
+    border-top: 50px solid rgba($primary-color, 0.9);
+  }
+}
+
+body.sticky-wrapper {
+  padding-top: 130px;
+
+  .sticky-header{
+    height: $sticky-menu-height;
+    background-color: rgba($primary-color, 0.9);
+
+    .sticky-header-title{
+      transform: scale(0);
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+

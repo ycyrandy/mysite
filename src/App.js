@@ -1,25 +1,29 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './foundation.css'
+import { MyHeader } from './components/Header'
+import { MyInfo } from './components/About'
+import { MySkill } from './components/Skill'
+import { MyExperience } from './components/Experience'
+import { MyResume } from './components/Resume'
+import { MyContact } from './components/Contact'
+import { MyFooter } from './components/Footer'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDown, faLaptopCode, faTerminal, faFileAlt, faPen, faAngleUp } from '@fortawesome/free-solid-svg-icons'
+library.add(faAngleDown, faLaptopCode, faTerminal, faFileAlt, faPen, faAngleUp)
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="app-root">
+        <MyHeader/>
+        <MyInfo/>
+        <MyExperience/>
+        <MySkill/>
+        <MyResume />
+        <MyContact />
+        <MyFooter />
       </div>
     );
   }
