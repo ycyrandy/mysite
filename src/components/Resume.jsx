@@ -4,7 +4,7 @@ import classNames from 'classnames'
 import PDF from 'react-pdf-js';
 import projectPic from '../assets/img/nonhier.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import resume from '../assets/img/resume-grad.pdf'
+import resume from '../assets/img/resume2018.pdf'
 
 export class MyResume extends React.Component {
     constructor() {
@@ -19,7 +19,7 @@ export class MyResume extends React.Component {
                 <VisibilitySensor>
                     {({ isVisible }) =>
                         <div className={classNames("image-cover-right", { "show-background": isVisible })}>
-                            <img className="image" src={projectPic} />
+                            <img className="image" src={projectPic} alt="my project pic" />
                         </div>
                     }
                 </VisibilitySensor>

@@ -1,5 +1,4 @@
 import React from 'react';
-import VisibilitySensor from 'react-visibility-sensor'
 import classNames from 'classnames'
 import selfie from '../assets/img/selfie.jpg'
 

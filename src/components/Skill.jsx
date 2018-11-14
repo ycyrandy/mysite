@@ -1,9 +1,4 @@
 import React from 'react';
-import VisibilitySensor from 'react-visibility-sensor'
-import classNames from 'classnames'
-import selfie from '../assets/img/selfie.jpg'
-import skills from '../assets/img/skills.svg'
-import projectPic from '../assets/img/sample.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export class MySkill extends React.Component {

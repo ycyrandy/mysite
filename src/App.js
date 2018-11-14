@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './foundation.css'
 import { MyHeader } from './components/Header'
 import { MyInfo } from './components/About'
@@ -9,7 +8,6 @@ import { MyResume } from './components/Resume'
 import { MyContact } from './components/Contact'
 import { MyFooter } from './components/Footer'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown, faLaptopCode, faTerminal, faFileAlt, faPen, faAngleUp } from '@fortawesome/free-solid-svg-icons'
 library.add(faAngleDown, faLaptopCode, faTerminal, faFileAlt, faPen, faAngleUp)
 

@@ -17,7 +17,7 @@ export class MyExperience extends React.Component {
                 <VisibilitySensor>
                     {({ isVisible }) =>
                         <div className={classNames("image-cover", { "show-background": isVisible })}>
-                            <img className="image" src={projectPic} />
+                            <img className="image" src={projectPic} alt="my project pic2" />
                         </div>
                     }
                 </VisibilitySensor>

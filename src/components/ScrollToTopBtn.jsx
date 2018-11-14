@@ -25,7 +25,7 @@ export class ScrollToTopButton extends React.Component {
     render() {
         return (
             <div className="back-to-top">
-                <a className="z-index-2" onClick={() => { this.scrollToTop(); }}>
+                <a className="z-index-2" onClick={() => { this.scrollToTop() }}>
                     <FontAwesomeIcon className="icon" icon="angle-up" />
                 </a>
             </div>
