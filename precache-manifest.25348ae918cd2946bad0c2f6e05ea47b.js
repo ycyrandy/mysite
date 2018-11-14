@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/mysite/static/media/linkedin-in-brands.40789519.svg"
   },
   {
-    "revision": "69ed01871272fa48276c429cb806719c",
+    "revision": "f49f4963099825261e1754b067e7ec7b",
     "url": "/mysite/index.html"
   }
 ];
