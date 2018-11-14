@@ -4,7 +4,7 @@ import classNames from 'classnames'
 import PDF from 'react-pdf-js';
 import projectPic from '../assets/img/nonhier.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import resume from '../assets/img/resume2018.pdf'
+import resume from '../assets/img/resume.pdf'
 
 export class MyResume extends React.Component {
     constructor() {

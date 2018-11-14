@@ -2,7 +2,7 @@
   "name": "my-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ycyrandy.github.io",
+  "homepage": "https://ycyrandy.github.io/mysite/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.7",
     "@fortawesome/free-solid-svg-icons": "^5.4.2",
