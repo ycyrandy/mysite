@@ -22,7 +22,7 @@ export class MyFooter extends React.Component {
                         <div className="small-12 medium-12 large-12 cell z-index-2">
                             <br/>
                             <h5 style={{ 'textAlign': 'center' }}>Thank you for visiting my website</h5>
-                            <h6 className="chinese-intro">- I you do care, my name is 杨尘曜 -</h6>
+                            <h6 className="chinese-intro">- If you do care, my name is 杨尘曜 -</h6>
                             <div className="social-media">
                                 <a className="z-index-2" href="https://www.linkedin.com/in/chenyaoyang">
                                     <img src={linkedInLogo} alt="linkedIn" />
@@ -33,7 +33,10 @@ export class MyFooter extends React.Component {
 
                     </div>
                 </div>
+                
+                <p className="copy-right-text">©2018 Chenyao Yang</p>
                 <ScrollToTopButton scrollStepInPx="50" delayInMs="16.66" />
+                
             </footer>
         );
     }

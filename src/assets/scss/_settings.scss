@@ -17,11 +17,15 @@ $body-background:$white;
 $body-font-color: #5c8d94;
 
 $global-width: rem-calc(1200);
-
+$global-radius: 2px;
 
 $body-font-family:'K2D',"Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 
-
+// form
+$form-label-color: #5c8d94;
+$input-color: $purple;
+$input-radius: $global-radius;
+$input-prefix-border: 1px solid $orange;
 
 $xy-grid: true;
 $grid-container: $global-width;

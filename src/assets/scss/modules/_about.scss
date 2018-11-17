@@ -1,16 +1,24 @@
-.about-selfie {
-  border-radius: 8px;
-  border: 1px solid $medium-gray;
-  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
-    0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-  background-color: rgb(244, 142, 129);
-  background-blend-mode: normal, hard-light;
-  height: 150px;
+.selfie-wrap {
+  display: none;
   @include breakpoint(medium) {
-    height: 300px;
+    display: initial;
   }
-  margin-left: 55vw;
+  .about-selfie {
+    border-radius: 8px;
+    border: 1px solid $medium-gray;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+      0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    background-color: rgb(244, 142, 129);
+    background-blend-mode: normal, hard-light;
+    height: 150px;
+    @include breakpoint(medium) {
+      height: 300px;
+    }
+    margin-left: 55vw;
+  }
 }
+
+
 
 .text-section {
     margin: auto 0 auto auto;

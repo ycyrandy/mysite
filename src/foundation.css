@@ -188,12 +188,12 @@ img {
 textarea {
   height: auto;
   min-height: 50px;
-  border-radius: 0; }
+  border-radius: 2px; }
 
 select {
   box-sizing: border-box;
   width: 100%;
-  border-radius: 0; }
+  border-radius: 2px; }
 
 .map_canvas img,
 .map_canvas embed,
@@ -207,7 +207,7 @@ button {
   padding: 0;
   appearance: none;
   border: 0;
-  border-radius: 0;
+  border-radius: 2px;
   background: transparent;
   line-height: 1;
   cursor: auto; }
@@ -239,14 +239,14 @@ textarea {
   margin: 0 0 1rem;
   padding: 0.5rem;
   border: 1px solid #cacaca;
-  border-radius: 0;
+  border-radius: 2px;
   background-color: #EEF5F3;
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   font-family: inherit;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #0a0a0a;
+  color: #BA7EA3;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
   appearance: none; }
   [type='text']:focus, [type='password']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='week']:focus, [type='email']:focus, [type='number']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='url']:focus, [type='color']:focus,
@@ -271,7 +271,7 @@ textarea[readonly] {
 [type='submit'],
 [type='button'] {
   appearance: none;
-  border-radius: 0; }
+  border-radius: 2px; }
 
 input[type='search'] {
   box-sizing: border-box; }
@@ -308,7 +308,7 @@ label {
   font-size: 0.875rem;
   font-weight: normal;
   line-height: 1.8;
-  color: #0a0a0a; }
+  color: #5c8d94; }
   label.middle {
     margin: 0 0 1rem;
     padding: 0.5625rem 0; }
@@ -325,9 +325,9 @@ label {
   margin-bottom: 1rem;
   align-items: stretch; }
   .input-group > :first-child, .input-group > :first-child.input-group-button > * {
-    border-radius: 0 0 0 0; }
+    border-radius: 2px 0 0 2px; }
   .input-group > :last-child, .input-group > :last-child.input-group-button > * {
-    border-radius: 0 0 0 0; }
+    border-radius: 0 2px 2px 0; }
 
 .input-group-label, .input-group-field, .input-group-button, .input-group-button a,
 .input-group-button input,
@@ -338,7 +338,7 @@ label {
 
 .input-group-label {
   padding: 0 1rem;
-  border: 1px solid #cacaca;
+  border: 1px solid #F48E81;
   background: #e6e6e6;
   color: #0a0a0a;
   text-align: center;
@@ -396,13 +396,13 @@ select {
   padding: 0.5rem;
   appearance: none;
   border: 1px solid #cacaca;
-  border-radius: 0;
+  border-radius: 2px;
   background-color: #EEF5F3;
   font-family: inherit;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #0a0a0a;
+  color: #BA7EA3;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb%28138, 138, 138%29'></polygon></svg>");
   background-origin: content-box;
   background-position: right -1rem center;
@@ -642,7 +642,8 @@ kbd {
   padding: 0.125rem 0.25rem 0;
   background-color: #e6e6e6;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
-  color: #0a0a0a; }
+  color: #0a0a0a;
+  border-radius: 2px; }
 
 .subheader {
   margin-top: 0.2rem;
@@ -2451,7 +2452,7 @@ ul.no-bullet, ol.no-bullet {
   margin: 0 0 1rem 0;
   padding: 0.85em 1em;
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 2px;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-family: inherit;
   font-size: 0.9rem;
@@ -2814,7 +2815,7 @@ a.button:hover, a.button:focus {
 .label {
   display: inline-block;
   padding: 0.33333rem 0.5rem;
-  border-radius: 0;
+  border-radius: 2px;
   font-size: 0.8rem;
   line-height: 1;
   white-space: nowrap;
@@ -2840,7 +2841,7 @@ a.button:hover, a.button:focus {
 .progress {
   height: 1rem;
   margin-bottom: 1rem;
-  border-radius: 0;
+  border-radius: 2px;
   background-color: #cacaca; }
   .progress.primary .progress-meter {
     background-color: #86cfe0; }
@@ -2858,7 +2859,8 @@ a.button:hover, a.button:focus {
   display: block;
   width: 0%;
   height: 100%;
-  background-color: #86cfe0; }
+  background-color: #86cfe0;
+  border-radius: 2px; }
 
 .progress-meter-text {
   position: absolute;
@@ -2870,7 +2872,8 @@ a.button:hover, a.button:focus {
   font-size: 0.75rem;
   font-weight: bold;
   color: #EEF5F3;
-  white-space: nowrap; }
+  white-space: nowrap;
+  border-radius: 2px; }
 
 .slider {
   position: relative;
@@ -2903,7 +2906,7 @@ a.button:hover, a.button:focus {
   display: inline-block;
   width: 1.4rem;
   height: 1.4rem;
-  border-radius: 0;
+  border-radius: 2px;
   background-color: #86cfe0;
   transition: all 0.2s ease-in-out;
   touch-action: manipulation; }
@@ -2957,7 +2960,7 @@ a.button:hover, a.button:focus {
   display: block;
   width: 4rem;
   height: 2rem;
-  border-radius: 0;
+  border-radius: 2px;
   background: #cacaca;
   transition: all 0.25s ease-out;
   font-weight: inherit;
@@ -2973,7 +2976,7 @@ a.button:hover, a.button:focus {
     width: 1.5rem;
     height: 1.5rem;
     transform: translate3d(0, 0, 0);
-    border-radius: 0;
+    border-radius: 2px;
     background: #EEF5F3;
     transition: all 0.25s ease-out;
     content: ''; }
@@ -3046,7 +3049,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
-  border-radius: 0; }
+  border-radius: 2px; }
   thead,
   tbody,
   tfoot {
@@ -3176,7 +3179,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   margin: 0 0 1rem 0;
   padding: 1rem;
   border: 1px solid rgba(10, 10, 10, 0.25);
-  border-radius: 0;
+  border-radius: 2px;
   background-color: #fcfefd;
   color: #5c8d94; }
   .callout > :first-child {
@@ -3215,7 +3218,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   flex-grow: 1;
   margin-bottom: 1rem;
   border: 1px solid #e6e6e6;
-  border-radius: 0;
+  border-radius: 2px;
   background: #EEF5F3;
   box-shadow: none;
   overflow: hidden;
@@ -3248,7 +3251,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   padding: 1rem;
   visibility: hidden;
   border: 1px solid #cacaca;
-  border-radius: 0;
+  border-radius: 2px;
   background-color: #EEF5F3;
   font-size: 1rem; }
   .dropdown-pane.is-opening {
@@ -3278,7 +3281,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
     clear: both; }
   .pagination li {
     margin-right: 0.0625rem;
-    border-radius: 0;
+    border-radius: 2px;
     font-size: 0.875rem;
     display: none; }
     .pagination li:last-child, .pagination li:first-child {
@@ -3290,7 +3293,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   .pagination button {
     display: block;
     padding: 0.1875rem 0.625rem;
-    border-radius: 0;
+    border-radius: 2px;
     color: #0a0a0a; }
     .pagination a:hover,
     .pagination button:hover {
@@ -3336,7 +3339,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   z-index: 1200;
   max-width: 10rem;
   padding: 0.75rem;
-  border-radius: 0;
+  border-radius: 2px;
   background-color: #0a0a0a;
   font-size: 80%;
   color: #EEF5F3; }
@@ -3419,10 +3422,10 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
     cursor: not-allowed; }
 
 .accordion-item:first-child > :first-child {
-  border-radius: 0 0 0 0; }
+  border-radius: 2px 2px 0 0; }
 
 .accordion-item:last-child > :last-child {
-  border-radius: 0 0 0 0; }
+  border-radius: 0 0 2px 2px; }
 
 .accordion-title {
   position: relative;
@@ -3435,7 +3438,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   color: #86cfe0; }
   :last-child:not(.is-active) > .accordion-title {
     border-bottom: 1px solid #e6e6e6;
-    border-radius: 0 0 0 0; }
+    border-radius: 0 0 2px 2px; }
   .accordion-title:hover, .accordion-title:focus {
     background-color: #e6e6e6; }
   .accordion-title::before {
@@ -3650,7 +3653,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   max-width: 100%;
   margin-bottom: 1rem;
   border: 4px solid #EEF5F3;
-  border-radius: 0;
+  border-radius: 2px;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0; }
 
@@ -4579,7 +4582,7 @@ html.is-reveal-open {
   display: none;
   padding: 1rem;
   border: 1px solid #cacaca;
-  border-radius: 0;
+  border-radius: 2px;
   background-color: #EEF5F3;
   position: relative;
   top: 100px;
@@ -5013,12 +5016,20 @@ html.is-reveal-open {
 .app-root {
   overflow: hidden; }
 
+.table-wrap {
+  overflow: auto;
+  border-radius: 4px;
+  margin-bottom: 2rem; }
+
 .section-seperator {
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   width: 100%;
   height: 5px;
   background: #5c8d94;
   display: flex; }
+  @media print, screen and (min-width: 40em) {
+    .section-seperator {
+      margin-bottom: 10rem; } }
   .section-seperator.white {
     background: #EEF5F3; }
   .section-seperator .seperator-icon {
@@ -5049,8 +5060,8 @@ html.is-reveal-open {
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
   background-color: #86cfe0;
   background-blend-mode: normal, hard-light;
-  height: 200px;
   max-width: 300px;
+  width: 100%;
   display: flex;
   opacity: 0.8;
   transition: all 0.5s ease-out; }
@@ -5093,9 +5104,55 @@ footer {
     text-align: center;
     color: #cacaca;
     font-weight: 600; }
+  footer .copy-right-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    left: 0; }
+
+form {
+  max-width: 40rem; }
+  form .form-content {
+    height: 400px;
+    transition: height 0.8s ease-out; }
+    @media print, screen and (min-width: 40em) {
+      form .form-content {
+        height: 315px; } }
+  form .cell {
+    padding: 0 0.3rem; }
+  form input[type="submit"] {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #EEF5F3;
+    background-color: #86cfe0;
+    border: none;
+    text-transform: uppercase; }
+    form input[type="submit"]:hover, form input[type="submit"]:focus, form input[type="submit"]:active {
+      background-color: #5dbfd6; }
+  form .sended {
+    height: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+    transition: height 0.4s ease-out 0.1s; }
+
+.sending-form .submit-div input[type="submit"] {
+  animation: shake 1s infinite; }
+
+.sended-form .submit-div input[type="submit"] {
+  height: 5rem;
+  transition: all 0.2s ease-in 0.1s;
+  color: white;
+  background-color: #257b8f; }
 
 .grid-container {
-  padding-bottom: 0.625rem; }
+  padding-bottom: 2rem; }
   @media print, screen and (min-width: 40em) {
     .grid-container {
       padding-bottom: 1.5625rem; } }
@@ -5126,7 +5183,11 @@ footer {
     transform: translate3d(0, 0, 0); } }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0); }
   40% {
     transform: translateY(-30px); }
@@ -5140,6 +5201,26 @@ footer {
     transform: scale3d(1.05, 1.05, 1.05); }
   to {
     transform: scale3d(1, 1, 1); } }
+
+@keyframes shake {
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate3d(-1px, 0, 0); }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translate3d(1px, 0, 0); } }
+
+@keyframes fadeOutUp {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0); } }
 
 body {
   padding-top: 20.625rem; }
@@ -5232,17 +5313,22 @@ body.sticky-wrapper {
       transform: scale(0);
       transition: all 0.3s ease; }
 
-.about-selfie {
-  border-radius: 8px;
-  border: 1px solid #cacaca;
-  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-  background-color: #f48e81;
-  background-blend-mode: normal, hard-light;
-  height: 150px;
-  margin-left: 55vw; }
+.selfie-wrap {
+  display: none; }
   @media print, screen and (min-width: 40em) {
-    .about-selfie {
-      height: 300px; } }
+    .selfie-wrap {
+      display: initial; } }
+  .selfie-wrap .about-selfie {
+    border-radius: 8px;
+    border: 1px solid #cacaca;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    background-color: #f48e81;
+    background-blend-mode: normal, hard-light;
+    height: 150px;
+    margin-left: 55vw; }
+    @media print, screen and (min-width: 40em) {
+      .selfie-wrap .about-selfie {
+        height: 300px; } }
 
 .text-section {
   margin: auto 0 auto auto; }

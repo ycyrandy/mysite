@@ -2,11 +2,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export class MySkill extends React.Component {
-    constructor() {
-        super()
-        this.state = {
-        }
-    }
 
     render() {
         return (
@@ -17,8 +12,8 @@ export class MySkill extends React.Component {
                 <div className="grid-container">
                     <div className="grid-x">
                         <div className="small-12 medium-8 large-9 cell z-index-2">
-                            <div className="">
-                                <h3>my skills</h3>
+                            <h3>my skills</h3>
+                            <div className="table-wrap">
                                 <table>
                                     <tbody>
                                         <tr>

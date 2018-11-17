@@ -35,11 +35,11 @@ export class MyInfo extends React.Component {
                             <div className="">
                                 <h3>little bit about myself</h3>
                                 <p>My name is Chenyao Yang, a Full-Stack developer. I am a candidate for Bachelor of Computer Science, Combinatorics and Optimization minor from the University of Waterloo.</p>
-                                <p>I am an enthusiastic programmer who always seeking for the great algorithm and efficient structure. In my free time, I love playing basketball and seeking for good food(all the time).</p>
+                                <p>I am an enthusiastic programmer who always seeking for the great algorithm and efficient structure. In my free time, I love playing basketball and seeking for gourmet(all the time).</p>
                             </div>
 
                         </div>
-                        <div className="small-12 medium-5 large-4 cell">
+                        <div className="small-12 medium-5 large-4 cell selfie-wrap">
 
                             <img className={classname} src={selfie} alt="My Selfie" />
 
