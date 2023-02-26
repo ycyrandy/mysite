@@ -34,7 +34,7 @@ export class MyFooter extends React.Component {
                     </div>
                 </div>
                 
-                <p className="copy-right-text">©2018 Chenyao Yang</p>
+                <p className="copy-right-text">©2023 Chenyao Yang</p>
                 <ScrollToTopButton scrollStepInPx="50" delayInMs="16.66" />
                 
             </footer>

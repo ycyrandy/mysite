@@ -34,8 +34,8 @@ export class MyInfo extends React.Component {
                         <div className="small-12 medium-7 large-8 cell">
                             <div className="">
                                 <h3>little bit about myself</h3>
-                                <p>My name is Chenyao Yang, a Full-Stack developer. I am a candidate for Bachelor of Computer Science, Combinatorics and Optimization minor from the University of Waterloo.</p>
-                                <p>I am an enthusiastic programmer who always seeking for the great algorithm and efficient structure. In my free time, I love playing basketball and seeking for gourmet(all the time).</p>
+                                <p>My name is Chenyao Yang, a Full-Stack developer. I obtained my bachelor's degree in computer science with a minor in combinatorics and optimization from the University of Waterloo in October 2017.</p>
+                                <p>I am an enthusiastic programmer who always seek for the best algorithm and efficient structure. When I am free, I like playing basketball and discovering gourmet.</p>
                             </div>
 
                         </div>

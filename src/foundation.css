@@ -5067,7 +5067,6 @@ html.is-reveal-open {
   transition: all 0.5s ease-out; }
   @media print, screen and (min-width: 40em) {
     .pdf-wrapper {
-      height: 400px;
       margin: auto; } }
   .pdf-wrapper:hover {
     transition: all 0.5s ease-out;
@@ -5114,11 +5113,11 @@ footer {
 form {
   max-width: 40rem; }
   form .form-content {
-    height: 400px;
+    height: 467px;
     transition: height 0.8s ease-out; }
     @media print, screen and (min-width: 40em) {
       form .form-content {
-        height: 315px; } }
+        height: 400px; } }
   form .cell {
     padding: 0 0.3rem; }
   form input[type="submit"] {
@@ -5129,11 +5128,14 @@ form {
     justify-content: center;
     height: 3rem;
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #EEF5F3;
     background-color: #86cfe0;
     border: none;
     text-transform: uppercase; }
+    @media print, screen and (min-width: 40em) {
+      form input[type="submit"] {
+        font-size: 1.3rem; } }
     form input[type="submit"]:hover, form input[type="submit"]:focus, form input[type="submit"]:active {
       background-color: #5dbfd6; }
   form .sended {

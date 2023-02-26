@@ -29,9 +29,9 @@ export class MyExperience extends React.Component {
                         <div className="small-12 medium-8 large-9 cell z-index-2">
                             <div className="">
                                 <h3>my experience</h3>
-                                <p>Currently, I am mainly working on IOS, Android and React Front-End Development at RhinoActive. I also have a short intern at Tablet department in TCL corporation.</p>
-                                <p>I have good experience with 3D rendering technique which includes interactive rendering and Ray-Tracing, this background is one of my Ray-Tracing projects as an example.</p>
-                                <p>There are many topics that I had been work on in University of Waterloo which includes distributed system, concurrent and parallel programming, machine learning, thin operating system and more</p>
+                                <p>Currently, I am a full-stack developer at Cohesity Inc. Primarily working on platform usability, Oracle data protection, Data Management as a Service(DMAAS) and customer site issues. Recently working on Oracle Protection V2, which aims to resolve data fuzziness and improve recovery stability. </p>
+                                <p>Prior to that, I worked on IOS, Android and React web development at RhinoActive in London, Ontario. I also had a short internship at TCL in their tablet division.</p>
+                                <p>I worked on several topics during my undergraduate studies, including 3D rendering, distributed system, concurrent and parallel programming, machine learning and thin operating system etc. The background of this section is one of my Ray-Tracing projects.</p>
                             </div>
                         </div>
                     </div>

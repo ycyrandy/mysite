@@ -20,7 +20,7 @@ export class MySkill extends React.Component {
                                             <td>C++</td>
                                             <td>C</td>
                                             <td>JAVA</td>
-                                            <td>Swift</td>
+                                            <td>Go</td>
                                         </tr>
                                         <tr>
                                             <td>OpenGL</td>
@@ -30,13 +30,13 @@ export class MySkill extends React.Component {
                                         </tr>
                                         <tr>
                                             <td>SQL</td>
-                                            <td>Git</td>
+                                            <td>Swift</td>
                                             <td>HTML</td>
                                             <td>JavaScript</td>
                                         </tr>
                                         <tr>
                                             <td>Python</td>
-                                            <td>LUA</td>
+                                            <td>Git</td>
                                             <td>Scheme</td>
                                             <td>MATLAB</td>
                                         </tr>

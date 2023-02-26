@@ -29,7 +29,7 @@ export class MyResume extends React.Component {
                 <div className="grid-container">
                     <div className="grid-x">
                         <div className="small-12 medium-6 large-6 cell z-index-2">
-                            <h3>my resume</h3>
+                            <h3>my résumé</h3>
                         </div>
                         <div className="small-12 medium-6 large-6 cell z-index-2">
                             <a href={resume}><PDF className="pdf-wrapper" file={resume} /></a>

@@ -18,11 +18,11 @@ export class MyContact extends React.Component {
         this.sendEmail = this.sendEmail.bind(this)
     }
 
-    sendEmail(event,component) {
-        if(this.state.sending || this.state.sended) {
+    sendEmail(event, component) {
+        event.preventDefault()
+        if (this.state.sending || this.state.sended) {
             return
         }
-        event.preventDefault()
         var template_params = {
             "reply_to": "",
             "from_name": this.state.contactName,
@@ -42,6 +42,9 @@ export class MyContact extends React.Component {
                 })
             }, function (err) {
                 console.log('FAILED...', err);
+                component.setState({
+                    sending: false
+                })
             });
     }
 
@@ -55,7 +58,11 @@ export class MyContact extends React.Component {
 
     submitFormContent() {
         let submitClassname = this.state.sended ? "sended" : this.state.sending ? "sending" : ""
-        
+        if (this.state.sended) {
+            return (
+                <div className={"grid-x form-content " + submitClassname} />
+            )
+        }
         return (
             <div className={"grid-x form-content " + submitClassname}>
                 <div className="small-12 medium-12 large-12 cell input-div">
@@ -72,18 +79,17 @@ export class MyContact extends React.Component {
                 </div>
                 <div className="small-12 medium-12 large-12 cell input-div">
                     <label>Message*</label>
-                    <textarea name="contactMsg" rows="4" cols="50" maxLength="500" placeholder="...(under 500)" onChange={this.onContactFormChange} required />
+                    <textarea style={{resize : "none"}} name="contactMsg" rows="7" cols="50" maxLength="500" placeholder="...(under 500)" onChange={this.onContactFormChange} required />
                 </div>
-                
             </div>
         )
     }
 
     submitForm() {
         let submitClassname = this.state.sended ? "sended-form" : this.state.sending ? "sending-form" : ""
-        let submitText = this.state.sended ? "Thank you, I had received your message" : this.state.sending ? "sending" : "send"
+        let submitText = this.state.sended ? "Thank you, I have received your message" : this.state.sending ? "sending" : "send"
         return (
-            <form className={submitClassname} onSubmit={(e)=>this.sendEmail(e,this)}>
+            <form className={submitClassname} onSubmit={(e) => this.sendEmail(e, this)}>
                 {this.submitFormContent()}
 
                 <div className="small-12 medium-12 large-12 cell submit-div">
@@ -105,7 +111,7 @@ export class MyContact extends React.Component {
                             <div className="">
                                 <h3>contact me</h3>
                                 <p>
-                                    Want more details? Let's get in touch, 
+                                    Want more details? Let's get in touch,
                                 </p>
                             </div>
                         </div>
